@@ -1,0 +1,14 @@
+{
+    "ProductOverview": {
+        "active": "Actief",
+        "unpaid": "Onbetaald",
+        "paid": "Betaald",
+        "split": "Verdeeld",
+        "name": "Naam",
+        "value": "Prijs",
+        "description": "Beschrijving",
+        "activeTotalValue": "Totaal",
+        "alreadyPaid": "Betaald",
+        "needToPay": "Te betalen"
+    }
+}

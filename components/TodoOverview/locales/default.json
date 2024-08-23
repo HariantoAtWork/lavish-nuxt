@@ -1,0 +1,11 @@
+{
+  "TodoOverview": {
+    "active": "Active",
+    "subject": "Subject",
+    "inactive": "Inactive",
+    "progress": "In progress",
+    "onhold": "On hold",
+    "done": "Finished",
+    "add": "Add Task"
+  }
+}

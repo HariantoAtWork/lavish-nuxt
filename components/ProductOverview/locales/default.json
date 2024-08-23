@@ -1,0 +1,14 @@
+{
+    "ProductOverview": {
+        "active": "Active",
+        "unpaid": "Unpaid",
+        "paid": "Paid",
+        "split": "Split",
+        "name": "Name",
+        "value": "Value",
+        "description": "Description",
+        "activeTotalValue": "Total",
+        "alreadyPaid": "Fully Paid",
+        "needToPay": "Payment Needed"
+    }
+}

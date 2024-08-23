@@ -1,0 +1,11 @@
+{
+  "TodoOverview": {
+    "active": "Actief",
+    "subject": "Onderwerp",
+    "value": "Prijs",
+    "inactive": "Open",
+    "progress": "Uitvoering",
+    "done": "Klaar",
+    "add": "Toevoegen"
+  }
+}
