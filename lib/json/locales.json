@@ -1,0 +1,274 @@
+{
+  "af": {
+    "name": "Afrikaans",
+    "language": "South Africa"
+  },
+  "am": {
+    "name": "Amharic",
+    "language": "Ethiopia"
+  },
+  "ar": {
+    "name": "Arabic",
+    "language": "Egypt, Iraq, Jordan, Kuwait, Lebanon, Libya, Morocco, Oman, Qatar, Saudi Arabia, Sudan, Syria, Tunisia, United Arab Emirates, Yemen"
+  },
+  "as": {
+    "name": "Assamese",
+    "language": "India"
+  },
+  "az": {
+    "name": "Azerbaijani",
+    "language": "Azerbaijan"
+  },
+  "be": {
+    "name": "Belarusian",
+    "language": "Belarus"
+  },
+  "bg": {
+    "name": "Bulgarian",
+    "language": "Bulgaria"
+  },
+  "bn": {
+    "name": "Bengali",
+    "language": "Bangladesh"
+  },
+  "bs": {
+    "name": "Bosnian",
+    "language": "Bosnia and Herzegovina"
+  },
+  "ca": {
+    "name": "Catalan",
+    "language": "Spain"
+  },
+  "cs": {
+    "name": "Czech",
+    "language": "Czech Republic"
+  },
+  "da": {
+    "name": "Danish",
+    "language": "Denmark"
+  },
+  "de": {
+    "name": "German",
+    "language": "Germany"
+  },
+  "el": {
+    "name": "Greek",
+    "language": "Greece"
+  },
+  "en": {
+    "name": "English",
+    "language": "United States, United Kingdom, Canada, Australia, New Zealand"
+  },
+  "es": {
+    "name": "Spanish",
+    "language": "Spain, Mexico, Argentina, Colombia, Chile, Peru"
+  },
+  "et": {
+    "name": "Estonian",
+    "language": "Estonia"
+  },
+  "fa": {
+    "name": "Persian",
+    "language": "Iran"
+  },
+  "fi": {
+    "name": "Finnish",
+    "language": "Finland"
+  },
+  "fr": {
+    "name": "French",
+    "language": "France, Belgium, Switzerland, Canada"
+  },
+  "ga": {
+    "name": "Irish",
+    "language": "Ireland"
+  },
+  "gl": {
+    "name": "Galician",
+    "language": "Spain"
+  },
+  "gu": {
+    "name": "Gujarati",
+    "language": "India"
+  },
+  "he": {
+    "name": "Hebrew",
+    "language": "Israel"
+  },
+  "hi": {
+    "name": "Hindi",
+    "language": "India"
+  },
+  "hr": {
+    "name": "Croatian",
+    "language": "Croatia"
+  },
+  "hu": {
+    "name": "Hungarian",
+    "language": "Hungary"
+  },
+  "hy": {
+    "name": "Armenian",
+    "language": "Armenia"
+  },
+  "id": {
+    "name": "Indonesian",
+    "language": "Indonesia"
+  },
+  "is": {
+    "name": "Icelandic",
+    "language": "Iceland"
+  },
+  "it": {
+    "name": "Italian",
+    "language": "Italy"
+  },
+  "ja": {
+    "name": "Japanese",
+    "language": "Japan"
+  },
+  "ka": {
+    "name": "Georgian",
+    "language": "Georgia"
+  },
+  "kk": {
+    "name": "Kazakh",
+    "language": "Kazakhstan"
+  },
+  "km": {
+    "name": "Khmer",
+    "language": "Cambodia"
+  },
+  "ko": {
+    "name": "Korean",
+    "language": "South Korea"
+  },
+  "lb": {
+    "name": "Luxembourgish",
+    "language": "Luxembourg"
+  },
+  "lt": {
+    "name": "Lithuanian",
+    "language": "Lithuania"
+  },
+  "lv": {
+    "name": "Latvian",
+    "language": "Latvia"
+  },
+  "ma": {
+    "name": "Malay",
+    "language": "Malaysia"
+  },
+  "ml": {
+    "name": "Malayalam",
+    "language": "India"
+  },
+  "mn": {
+    "name": "Mongolian",
+    "language": "Mongolia"
+  },
+  "mr": {
+    "name": "Marathi",
+    "language": "India"
+  },
+  "ms": {
+    "name": "Malay",
+    "language": "Malaysia, Singapore"
+  },
+  "mt": {
+    "name": "Maltese",
+    "language": "Malta"
+  },
+  "my": {
+    "name": "Burmese",
+    "language": "Myanmar (Burma)"
+  },
+  "ne": {
+    "name": "Nepali",
+    "language": "Nepal"
+  },
+  "nl": {
+    "name": "Dutch",
+    "language": "Netherlands"
+  },
+  "no": {
+    "name": "Norwegian",
+    "language": "Norway"
+  },
+  "pa": {
+    "name": "Punjabi",
+    "language": "India, Pakistan"
+  },
+  "pl": {
+    "name": "Polish",
+    "language": "Poland"
+  },
+  "pt": {
+    "name": "Portuguese",
+    "language": "Brazil, Portugal"
+  },
+  "ro": {
+    "name": "Romanian",
+    "language": "Romania"
+  },
+  "ru": {
+    "name": "Russian",
+    "language": "Russia"
+  },
+  "sk": {
+    "name": "Slovak",
+    "language": "Slovakia"
+  },
+  "sl": {
+    "name": "Slovenian",
+    "language": "Slovenia"
+  },
+  "sq": {
+    "name": "Albanian",
+    "language": "Albania"
+  },
+  "sr": {
+    "name": "Serbian",
+    "language": "Serbia"
+  },
+  "sv": {
+    "name": "Swedish",
+    "language": "Sweden"
+  },
+  "sw": {
+    "name": "Swahili",
+    "language": "Kenya, Tanzania, Uganda"
+  },
+  "ta": {
+    "name": "Tamil",
+    "language": "India"
+  },
+  "te": {
+    "name": "Telugu",
+    "language": "India"
+  },
+  "th": {
+    "name": "Thai",
+    "language": "Thailand"
+  },
+  "tr": {
+    "name": "Turkish",
+    "language": "Turkey"
+  },
+  "uk": {
+    "name": "Ukrainian",
+    "language": "Ukraine"
+  },
+  "ur": {
+    "name": "Urdu",
+    "language": "Pakistan"
+  },
+  "vi": {
+    "name": "Vietnamese",
+    "language": "Vietnam"
+  },
+  "zh": {
+    "name": "Chinese",
+    "language": "China, Hong Kong, Taiwan"
+  }
+}

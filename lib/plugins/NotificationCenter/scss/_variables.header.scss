@@ -1,0 +1,187 @@
+// Squares theme variables
+$default-header-bg:                    $white !default;
+$default-header-box-shadow:            0 0 1.5rem rgba(0,0,0,.15) !default;
+
+// Header browser warning
+$default-header-browser-warning-bg:            $primary !default;
+$default-header-browser-warning-color:         $black !default;
+$default-header-browser-warning-font-size:     $font-size-sm !default;
+$default-header-browser-warning-font-weight:   $font-weight-bold !default;
+$default-header-browser-warning-font-family:   $font-family-sans-serif !default;
+
+// Header return link
+$default-header-return-bg:                     $white !default;
+$default-header-return-color:                  $black !default;
+$default-header-return-border:                 transparent !default;
+$default-header-return-border-width:           1px !default;
+$default-header-return-padding-y:              .5rem !default;
+$default-header-return-padding-x:              .75rem !default;
+$default-header-return-border-radius:          0 0 0.25rem 0.25rem !default;
+$default-header-return-font-size:              $font-size-base !default;
+$default-header-return-font-weight:            $font-weight-bold !default;
+$default-header-return-text-transform:         none !default;
+$default-header-return-icon-font-size:         $font-size-base !default;
+$default-header-return-icon-color:             $black !default;
+
+// :not(.home) | sm | Header return link
+$default-not-home-header-return-height:        43px !default;
+$default-not-home-header-return-width:         43px !default;
+
+// Navbar
+$default-navbar-min-height:                    70px !default;
+$default-navbar-min-height-sm:                 4rem !default;
+$default-navbar-padding-y:                     .5rem !default;
+$default-navbar-padding-x-left:                1rem !default;
+$default-navbar-padding-x-right:               1rem !default;
+
+$default-header-heading-bg:                    transparent !default;
+$default-header-heading-margin:                .5rem 0 !default;
+$default-header-heading-padding:               1rem !default;
+$default-header-heading-width:                 40rem !default;
+$default-header-heading-border-radius:         0 !default;
+$default-header-heading-z-index:               1000 !default;
+
+$default-navbar-brand-max-width-sm:            120px !default;
+$default-navbar-menu-mobile-display:           none !default;
+
+// Navigation title
+$default-header-navigation-title-font-size:                          1.5rem !default;
+$default-header-navigation-title-font-family:                        $font-family-sans-serif !default;
+$default-header-navigation-title-font-weight:                        $font-weight-bolder !default;
+$default-header-navigation-title-color:                              $secondary !default;
+$default-header-navigation-title-text-transform:                     uppercase !default;
+
+$default-header-navigation-subtitle-font-size:                       $font-size-base !default;
+$default-header-navigation-subtitle-font-family:                     $font-family-sans-serif !default;
+$default-header-navigation-subtitle-font-weight:                     $font-weight-normal !default;
+$default-header-navigation-subtitle-color:                           $text-muted !default;
+$default-header-navigation-subtitle-text-transform:                  none !default;
+
+// Navigation menu
+$default-header-navigation-menu-item-padding-l:                                     18px !default;
+
+$default-header-navigation-menu-button-padding:                                    0 !default;
+$default-header-navigation-menu-button-sub-text-font-size:                         9px !default;
+$default-header-navigation-menu-button-sub-text-font-weight:                       300 !default;
+$default-header-navigation-menu-button-sub-text-padding-t:                         .3rem !default;
+$default-header-navigation-menu-button-sub-text-color:                             $text-muted !default;
+$default-header-navigation-menu-button-sub-text-font-family:                       $font-family-base !default;
+
+$default-header-navigation-menu-button-height:                                     38px !default;
+$default-header-navigation-menu-button-border-radius:                              19px !default;
+$default-header-navigation-menu-button-box-shadow:                                 0px 2px 3px 1px rgba(0,0,0,.1) !default;
+$default-header-navigation-menu-button-toggle-color:                               $dark !default;
+$default-header-navigation-menu-button-toggle-padding-r:                           .2rem !default;
+
+$default-header-navigation-menu-button-upcoming-bg:                                #fafafa !default;
+$default-header-navigation-menu-button-upcoming-padding-x:                         1rem !default;
+
+$default-header-navigation-menu-button-upcoming-counter-font-size:                 .9rem !default;
+$default-header-navigation-menu-button-upcoming-counter-font-weight:               $font-weight-light !default;
+$default-header-navigation-menu-button-upcoming-counter-font-family:               $font-family-sans-serif !default;
+$default-header-navigation-menu-button-upcoming-counter-color:                     $black !default;
+$default-header-navigation-menu-button-upcoming-counter-text-transform:            none !default;
+$default-header-navigation-menu-button-upcoming-counter-margin-bottom:             .1rem !default;
+$default-header-navigation-menu-button-upcoming-counter-segment-width:             26px !default;
+
+$default-header-navigation-menu-button-upcoming-sub-font-size:                     10px !default;
+$default-header-navigation-menu-button-upcoming-sub-font-weight:                   $font-weight-light !default;
+$default-header-navigation-menu-button-upcoming-sub-font-family:                   $font-family-sans-serif !default;
+$default-header-navigation-menu-button-upcoming-sub-color:                         $text-muted !default;
+$default-header-navigation-menu-button-upcoming-sub-text-transform:                none !default;
+
+$default-header-navigation-menu-button-live-icon-bg:                               $live !default;
+$default-header-navigation-menu-button-live-icon-color:                            color-yiq($default-header-navigation-menu-button-live-icon-bg) !default;
+
+$default-header-navigation-menu-button-schedule-icon-bg:                           $primary !default;
+$default-header-navigation-menu-button-schedule-icon-color:                        color-yiq($default-header-navigation-menu-button-schedule-icon-bg) !default;
+
+$default-header-navigation-menu-button-live-bg:                                    $primary !default;
+$default-header-navigation-menu-button-live-width:                                 3.6rem !default;
+
+$default-header-navigation-menu-button-live-icon-font-size:                        22px !default;
+$default-header-navigation-menu-button-live-icon-width:                            2rem !default;
+
+$default-header-navigation-menu-button-settings-bg:                                #fafafa !default;
+$default-header-navigation-menu-button-settings-border-radius:                     50% !default;
+$default-header-navigation-menu-button-settings-box-shadow:                        0px 2px 3px 1px rgba(0,0,0,.1) !default;
+
+$default-header-navigation-menu-button-settings-border-radius:                     22px !default;
+$default-header-navigation-menu-button-settings-height:                            38px !default;
+
+$default-header-navigation-menu-button-settings-toggle-bg:                         #e2e2e2 !default;
+$default-header-navigation-menu-button-settings-toggle-border-radius:              50% !default;
+$default-header-navigation-menu-button-settings-toggle-width:                      16px !default;
+$default-header-navigation-menu-button-settings-toggle-height:                     16px !default;
+
+$default-header-navigation-menu-button-messenger-bg:                                    #fafafa !default;
+$default-header-navigation-menu-button-width:                                 38px !default;
+
+$default-header-navigation-menu-button-messenger-icon-color:                            $black !default;
+$default-header-navigation-menu-button-messenger-icon-font-size:                        22px !default;
+$default-header-navigation-menu-button-messenger-icon-width:                            2rem !default;
+
+// Menu Dropdown
+$default-header-navigation-menu-wrapper-padding-t:                   1rem !default;
+$default-header-navigation-menu-wrapper-top:                         100% !default;
+
+$default-header-navigation-menu-extra-list-wrapper-padding-b:        1rem !default;
+
+$default-header-navigation-menu-triangle-color:                      #969678 !default;
+$default-header-navigation-menu-triangle-width:                      6px !default;
+$default-header-navigation-menu-triangle-bottom:                     -1rem !default;
+
+$default-header-navigation-menu-border-color:                        $border-color !default;
+$default-header-navigation-menu-border-width:                        1px !default;
+$default-header-navigation-menu-color:                               $dark !default;
+$default-header-navigation-menu-background-color:                    $white !default;
+$default-header-navigation-menu-border-radius:                       $border-radius-sm !default;
+$default-header-navigation-menu-box-shadow:                          $box-shadow !default;
+$default-header-navigation-menu-font-size:                           1rem !default;
+
+$default-header-navigation-menu-footer-button-background-color:             $primary !default;
+$default-header-navigation-menu-footer-button-color:                        color-yiq($default-header-navigation-menu-footer-button-background-color) !default;
+$default-header-navigation-menu-footer-button-border-radius:                5px !default;
+
+$default-header-navigation-menu-title-color:                         $dark !default;
+$default-header-navigation-menu-title-font-size:                     1.2rem !default;
+$default-header-navigation-menu-title-font-weight:                   $font-weight-bold !default;
+$default-header-navigation-menu-title-padding-x:                     1rem !default;
+$default-header-navigation-menu-title-padding-y:                     .5rem !default;
+$default-header-navigation-menu-title-margin-b:                      0 !default;
+
+$default-header-navigation-menu-list-padding-x:                      1rem !default;
+$default-header-navigation-menu-list-item-hover-bg:                  $light !default;
+
+$default-header-navigation-menu-footer-padding-x:                    1rem !default;
+$default-header-navigation-menu-footer-padding-y:                    1rem !default;
+
+$default-header-navigation-menu-first-upcoming-bg:                   #8070 !default;
+$default-header-navigation-menu-upcoming-bg:                         transparent !default;
+$default-header-navigation-menu-session-list-item-hover-bg:          $light !default;
+
+$default-header-navigation-menu-settings-item-icon-color:            $primary !default;
+$default-header-navigation-menu-settings-item-icon-display:          inline !default;
+$default-header-navigation-menu-settings-item-text-color:            $dark !default;
+$default-header-navigation-menu-settings-item-text-weight:           300 !default;
+$default-header-navigation-menu-settings-item-padding-x:             .8rem !default;
+$default-header-navigation-menu-settings-item-padding-y:             .3rem !default;
+
+$default-header-navigation-menu-schedule-item-width:                 100% !default;
+$default-header-navigation-menu-schedule-item-color:                 $white !default;
+$default-header-navigation-menu-schedule-item-padding-x:             0 !default;
+$default-header-navigation-menu-schedule-item-padding-y:             .5rem !default;
+$default-header-navigation-menu-schedule-item-transition:            all 1s !default;
+
+$default-header-navigation-menu-schedule-item-title-font-size:       1rem !default;
+$default-header-navigation-menu-schedule-item-title-color:           $dark !default;
+$default-header-navigation-menu-schedule-item-title-line-height:     1.3rem !default;
+$default-header-navigation-menu-schedule-item-title-margin-b:        3px !default;
+$default-header-navigation-menu-schedule-item-title-font-weight:     600 !default;
+
+$default-header-navigation-menu-schedule-item-content-font-size:     .9rem !default;
+$default-header-navigation-menu-schedule-item-content-color:         $dark !default;
+$default-header-navigation-menu-schedule-item-content-line-height:   auto !default;
+$default-header-navigation-menu-schedule-item-content-margin-t:      2px !default;
+$default-header-navigation-menu-schedule-item-content-font-weight:   100 !default;
+$default-header-navigation-menu-schedule-item-toggle-color:          $black !default;

@@ -1,0 +1,205 @@
+// ####### DEFAULT
+// NotificationCenter
+$notification-center_position: fixed !default;
+$notification-center_left: 0 !default;
+$notification-center_right: 0 !default;
+$notification-center_top: 0 !default;
+$notification-center_bottom: 0 !default;
+$notification-center_padding-left: unset !default;
+$notification-center_padding-right: unset !default;
+$notification-center_padding-top: unset !default;
+$notification-center_padding-bottom: unset !default;
+// NotificationCenter__NotificationList
+$notification-center-notification-list_position: absolute !default;
+$notification-center-notification-list_left: unset !default;
+$notification-center-notification-list_right: unset !default;
+$notification-center-notification-list_top: unset !default;
+$notification-center-notification-list_bottom: unset !default;
+// NotificationCenter__NotificationList--top
+$notification-center-notification-list--top_left: 0 !default;
+$notification-center-notification-list--top_right: 0 !default;
+$notification-center-notification-list--top_top: 0 !default;
+$notification-center-notification-list--top_bottom: unset !default;
+// NotificationCenter__NotificationList--top-left
+$notification-center-notification-list--top-left_left: 0 !default;
+$notification-center-notification-list--top-left_right: unset !default;
+$notification-center-notification-list--top-left_top: 0 !default;
+$notification-center-notification-list--top-left_bottom: unset !default;
+// NotificationCenter__NotificationList--top-center
+$notification-center-notification-list--top-center_left: 50% !default;
+$notification-center-notification-list--top-center_transform: translateX(-50%) !default;
+$notification-center-notification-list--top-center_right: unset !default;
+$notification-center-notification-list--top-center_top: 0 !default;
+$notification-center-notification-list--top-center_bottom: unset !default;
+// NotificationCenter__NotificationList--top-right
+$notification-center-notification-list--top-right_left: unset !default;
+$notification-center-notification-list--top-right_right: 0 !default;
+$notification-center-notification-list--top-right_top: 0 !default;
+$notification-center-notification-list--top-right_bottom: unset !default;
+// NotificationCenter__NotificationList--bottom
+$notification-center-notification-list--bottom_left: 0 !default;
+$notification-center-notification-list--bottom_right: 0 !default;
+$notification-center-notification-list--bottom_top: unset !default;
+$notification-center-notification-list--bottom_bottom: 0 !default;
+// NotificationCenter__NotificationList--bottom-left
+$notification-center-notification-list--bottom-left_left: 0 !default;
+$notification-center-notification-list--bottom-left_right: unset !default;
+$notification-center-notification-list--bottom-left_top: unset !default;
+$notification-center-notification-list--bottom-left_bottom: 0 !default;
+// NotificationCenter__NotificationList--bottom-center
+$notification-center-notification-list--bottom-center_left: 50% !default;
+$notification-center-notification-list--bottom-center_transform: translateX(-50%) !default;
+$notification-center-notification-list--bottom-center_right: unset !default;
+$notification-center-notification-list--bottom-center_top: unset !default;
+$notification-center-notification-list--bottom-center_bottom: 0 !default;
+// NotificationCenter__NotificationList--bottom-right
+$notification-center-notification-list--bottom-right_left: unset !default;
+$notification-center-notification-list--bottom-right_right: 0 !default;
+$notification-center-notification-list--bottom-right_top: unset !default;
+$notification-center-notification-list--bottom-right_bottom: 0 !default;
+
+// Notification
+$notification_padding: 1.4em 1em !default;
+$notification_margin: 4px !default;
+$notification_width: 100% !default;
+$notification_overflow: hidden !default;
+$notification_border-radius: $border-radius-sm !default;
+$notification_background-color: $white !default;
+$notification_box-shadow: 0 0 1.875rem rgba(0, 0, 0, 20%) !default;
+$notification_color: $dark !default;
+// Notification__Title
+$notification-title_color: $black !default;
+$notification-title_font-size: 1.2em !default;
+$notification-title_font-weight: bold !default;
+$notification-title_margin-bottom: unset !default;
+$notification-title_first-letter-text-transform: capitalize !default;
+// Notification__Message
+$notification-message_font-weight: normal !default;
+$notification-message_font-size: 1em !default;
+$notification-message_first-letter-text-transform: capitalize !default;
+// Notification__CloseButton
+$notification-close-button_color: $black !default;
+$notification-close-button_background-color: $light !default;
+$notification-close-button_border: 0 !default;
+$notification-close-button_border-radius: 0 $border-radius-sm 0 $border-radius-sm !default;
+// ####### END DEFAULT
+
+// ####### SQUARES - $sq
+// NotificationCenter
+$default-notification-aside-icon-info-color:                 #4e94e8 !default;
+$default-notification-aside-icon-success-color:              #6cb12d !default;
+$default-notification-aside-icon-warning-color:              #f3b433 !default;
+$default-notification-aside-icon-danger-color:               #d34d3f !default;
+
+$default-notification-center_position: fixed !default;
+$default-notification-center_left: 10px !default;
+$default-notification-center_right: 10px !default;
+$default-notification-center_top: 0 !default;
+$default-notification-center_bottom: 0 !default;
+// NotificationCenter__NotificationList
+$default-notification-center-notification-list_position: absolute !default;
+$default-notification-center-notification-list_left: unset !default;
+$default-notification-center-notification-list_right: unset !default;
+$default-notification-center-notification-list_top: unset !default;
+$default-notification-center-notification-list_bottom: unset !default;
+// NotificationCenter__NotificationList--top
+$default-notification-center-notification-list--top_left: 0 !default;
+$default-notification-center-notification-list--top_right: 0 !default;
+$default-notification-center-notification-list--top_top: 0 !default;
+$default-notification-center-notification-list--top_bottom: unset !default;
+// NotificationCenter__NotificationList--top-left
+$default-notification-center-notification-list--top-left_left: 0 !default;
+$default-notification-center-notification-list--top-left_right: unset !default;
+$default-notification-center-notification-list--top-left_top: 0 !default;
+$default-notification-center-notification-list--top-left_bottom: unset !default;
+// NotificationCenter__NotificationList--top-center
+$default-notification-center-notification-list--top-center_left: 50% !default;
+$default-notification-center-notification-list--top-center_transform: translateX(-50%) !default;
+$default-notification-center-notification-list--top-center_right: unset !default;
+$default-notification-center-notification-list--top-center_top: 0 !default;
+$default-notification-center-notification-list--top-center_bottom: unset !default;
+// NotificationCenter__NotificationList--top-right
+$default-notification-center-notification-list--top-right_left: unset !default;
+$default-notification-center-notification-list--top-right_right: 0 !default;
+$default-notification-center-notification-list--top-right_top: 0 !default;
+$default-notification-center-notification-list--top-right_bottom: unset !default;
+// NotificationCenter__NotificationList--bottom
+$default-notification-center-notification-list--bottom_left: 0 !default;
+$default-notification-center-notification-list--bottom_right: 0 !default;
+$default-notification-center-notification-list--bottom_top: unset !default;
+$default-notification-center-notification-list--bottom_bottom: 0 !default;
+// NotificationCenter__NotificationList--bottom-left
+$default-notification-center-notification-list--bottom-left_left: 0 !default;
+$default-notification-center-notification-list--bottom-left_right: unset !default;
+$default-notification-center-notification-list--bottom-left_top: unset !default;
+$default-notification-center-notification-list--bottom-left_bottom: 0 !default;
+// NotificationCenter__NotificationList--bottom-center
+$default-notification-center-notification-list--bottom-center_left: 50% !default;
+$default-notification-center-notification-list--bottom-center_transform: translateX(-50%) !default;
+$default-notification-center-notification-list--bottom-center_right: unset !default;
+$default-notification-center-notification-list--bottom-center_top: unset !default;
+$default-notification-center-notification-list--bottom-center_bottom: 0 !default;
+// NotificationCenter__NotificationList--bottom-right
+$default-notification-center-notification-list--bottom-right_left: unset !default;
+$default-notification-center-notification-list--bottom-right_right: 0 !default;
+$default-notification-center-notification-list--bottom-right_top: unset !default;
+$default-notification-center-notification-list--bottom-right_bottom: 0 !default;
+
+// Notification
+$default-notification_padding: 1.2rem 1em !default;
+$default-notification_margin: 0 0 0 0 !default;
+$default-notification_width: 100% !default;
+$default-notification_overflow: hidden !default;
+$default-notification_border: none !default;
+$default-notification_border-radius: $border-radius-sm !default;
+$default-notification_background-color: $white !default;
+$default-notification_box-shadow: 0 0 1.875rem rgba(0, 0, 0, 20%) !default;
+$default-notification_color: $dark !default;
+
+$default-notification-center-notification-list--top-notification_margin-top: 10px !default;
+$default-notification-center-notification-list--top-notification_margin-bottom: 4px !default;
+
+$default-notification-center-notification-list--bottom-notification_margin-bottom: 10px !default;
+$default-notification-center-notification-list--bottom-notification_margin-top: 4px !default;
+// Notification__Title
+$default-notification-title_color: $black !default;
+$default-notification-title_font-size: 1rem !default;
+$default-notification-title_font-weight: bold !default;
+$default-notification-title_margin-bottom: unset !default;
+$default-notification-title_first-letter-text-transform: capitalize !default;
+// Notification__Message
+$default-notification-message_color: $dark !default;
+$default-notification-message_font-weight: normal !default;
+$default-notification-message_font-size: .9rem !default;
+$default-notification-message_first-letter-text-transform: capitalize !default;
+// Notification__CloseButton
+$default-notification-close-button_color: $black !default;
+$default-notification-close-button_background-color: $light !default;
+$default-notification-close-button_border: 0 !default;
+$default-notification-close-button_border-radius: 0 $border-radius-sm 0 $border-radius-sm !default;
+// Notification__Redirect
+$default-notification-redirect-btn-variant: 'primary' !default;
+$default-notification-redirect-btn-style: 'default' !default;
+// Notification__Slim
+$default-notification-slim-padding: 1rem !default;
+$default-notification-slim-aside-margin-right: .5rem !default;
+$default-notification-slim-aside-size: 25px !default;
+$default-notification-slim-title-font-size: .8rem !default;
+$default-notification-slim-message-font-size: .7rem !default;
+$default-notification-slim-close-button-padding: .2rem !default;
+$default-notification-slim-close-button-height: 20px !default;
+// ####### END SQUARES - $sq
+
+
+// Notification Dark extra variables
+$default-notification_dark_background-color: $dark !default;
+$default-notification_dark_color: $white !default;
+$default-notification_dark-title_color: $white !default;
+$default-notification_dark-message_color: $white !default;
+$default-notification_dark-close-button_color: $white !default;
+$default-notification_dark-close-button_background-color: $black !default;
+// ####### END SQUARES - $sq dark
+
+
+// Notification -- modifier: .notification--default
+$default-notification--default-background-color: $white !default;

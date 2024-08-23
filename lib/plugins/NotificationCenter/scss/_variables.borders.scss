@@ -1,0 +1,23 @@
+/*------------------------------------*\
+  #BOOTSTRAP OVERRIDE VARS (BS)
+\*------------------------------------*/
+
+/**
+ * These variables are needed for overriding default Bootstrap vars
+ */
+
+$bs-border-color:            #ccc !default;
+
+$bs-border-radius:           .5rem !default;
+$bs-border-radius-sm:        .25rem !default;
+$bs-border-radius-lg:        .75rem !default;
+
+/*------------------------------------*\
+  #BOOTSTRAP DEFAULT VARS
+\*------------------------------------*/
+
+$border-color:            $bs-border-color;
+
+$border-radius:           $bs-border-radius;
+$border-radius-sm:        $bs-border-radius-sm;
+$border-radius-lg:        $bs-border-radius-lg;

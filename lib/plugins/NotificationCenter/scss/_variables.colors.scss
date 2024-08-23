@@ -1,0 +1,80 @@
+/*------------------------------------*\
+  #BOOTSTRAP OVERRIDE VARS (BS)
+\*------------------------------------*/
+$warning:                 orange;
+$info:                    rgb(75, 75, 190);
+$danger:                  #FF8888;
+$success:                 #76E78E;
+
+/**
+ * These variables are needed for overriding default Bootstrap vars
+ */
+
+$bs-primary:                #ffd600  !default;
+$bs-secondary:              #000000  !default;
+$bs-tertiary:               #008FF9 !default;
+$bs-quaternary:             #666666 !default;
+
+$bs-light:                  #f2f2f2 !default;
+$bs-dark:                   #222222 !default;
+
+$bs-white:                  #ffffff !default;
+$bs-black:                  #000000 !default;
+
+
+/*------------------------------------*\
+  #BOOTSTRAP DEFAULT VARS
+\*------------------------------------*/
+
+$primary:                   $bs-primary;
+$secondary:                 $bs-secondary;
+$tertiary:                  $bs-tertiary;
+$quaternary:                $bs-quaternary;
+
+$light:                     $bs-light;
+$dark:                      $bs-dark;
+
+$white:                     $bs-white;
+$black:                     $bs-dark;
+
+
+
+/*------------------------------------*\
+  #CUSTOM COLORS
+\*------------------------------------*/
+$gray-400: grey;
+
+$upcoming:               $gray-400 !default;
+$live:                   $primary !default;
+$live-text-color:        $black !default;
+
+$finished:               $gray-400 !default;
+
+$badge-online-color:     $primary !default;
+$badge-offline-color:    #de4040 !default;
+
+$rank-color:            #293133!default;
+
+// Set the theme colors
+$theme-colors: ();
+$theme-colors:
+    map-merge(
+    (
+        "primary":      $primary,
+        "secondary":    $secondary,
+        "tertiary":     $tertiary,
+        "quaternary":   $quaternary,
+        "success":      $success,
+        "info":         $info,
+        "warning":      $warning,
+        "danger":       $danger,
+        "light":        $light,
+        "dark":         $dark,
+        "white":        $white,
+        "black":        $black,
+        "upcoming":     $upcoming,
+        "live":         $live,
+        "finished":     $finished
+    ),
+  $theme-colors
+);

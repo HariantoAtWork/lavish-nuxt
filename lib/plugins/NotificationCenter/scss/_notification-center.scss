@@ -1,0 +1,384 @@
+.notification-center {
+  position: $default-notification-center_position;
+  left: $default-notification-center_left;
+  right: $default-notification-center_right;
+  top: $default-notification-center_top;
+  bottom: $default-notification-center_bottom;
+  z-index: $modal-container-z-index + 1;
+
+  &__notification-list {
+    position: $default-notification-center-notification-list_position;
+    left: $default-notification-center-notification-list_left;
+    right: $default-notification-center-notification-list_right;
+    top: $default-notification-center-notification-list_top;
+    bottom: $default-notification-center-notification-list_bottom;
+    // width: 100%;
+
+    @media only screen and (min-device-width: 768px) {
+      &--top-left,
+      &--bottom-left {
+        margin-right: auto;
+      }
+      &--top-center,
+      &--bottom-center {
+        margin-left: auto;
+        margin-right: auto;
+      }
+      &--top-right,
+      &--bottom-right {
+        margin-left: auto;
+      }
+    }
+
+    &--top {
+      left: $default-notification-center-notification-list--top_left;
+      right: $default-notification-center-notification-list--top_right;
+      top: $default-notification-center-notification-list--top_top;
+      bottom: $default-notification-center-notification-list--top_bottom;
+      margin:$notification_margin;
+
+      @media (max-width: 767.98px) {
+        margin:$notification_margin * 2;
+       }
+    }
+
+    &--top-left {
+      left: $default-notification-center-notification-list--top-left_left;
+      right: $default-notification-center-notification-list--top-left_right;
+      top: $default-notification-center-notification-list--top-left_top;
+      bottom: $default-notification-center-notification-list--top-left_bottom;
+    }
+
+    &--top-center {
+      left: $default-notification-center-notification-list--top-center_left;
+      transform: $default-notification-center-notification-list--top-center_transform;
+      right: $default-notification-center-notification-list--top-center_right;
+      top: $default-notification-center-notification-list--top-center_top;
+      bottom: $default-notification-center-notification-list--top-center_bottom;
+    }
+
+    &--top-right {
+      left: $default-notification-center-notification-list--top-right_left;
+      right: $default-notification-center-notification-list--top-right_right;
+      top: $default-notification-center-notification-list--top-right_top;
+      bottom: $default-notification-center-notification-list--top-right_bottom;
+    }
+
+    &--bottom {
+      left: $default-notification-center-notification-list--bottom_left;
+      right: $default-notification-center-notification-list--bottom_right;
+      top: $default-notification-center-notification-list--bottom_top;
+      bottom: $default-notification-center-notification-list--bottom_bottom;
+    }
+
+    &--bottom-left {
+      left: $default-notification-center-notification-list--bottom-left_left;
+      right: $default-notification-center-notification-list--bottom-left_right;
+      top: $default-notification-center-notification-list--bottom-left_top;
+      bottom: $default-notification-center-notification-list--bottom-left_bottom;
+      // padding-bottom: 4rem;
+    }
+
+    &--bottom-center {
+      left: $default-notification-center-notification-list--bottom-center_left;
+      transform: $default-notification-center-notification-list--bottom-center_transform;
+      right: $default-notification-center-notification-list--bottom-center_right;
+      top: $default-notification-center-notification-list--bottom-center_top;
+      bottom: $default-notification-center-notification-list--bottom-center_bottom;
+    }
+
+    &--bottom-right {
+      left: $default-notification-center-notification-list--bottom-right_left;
+      right: $default-notification-center-notification-list--bottom-right_right;
+      top: $default-notification-center-notification-list--bottom-right_top;
+      bottom: $default-notification-center-notification-list--bottom-right_bottom;
+    }
+
+    &--top,
+    &--top-left,
+    &--top-center,
+    &--top-right {
+      .notification {
+        margin-bottom: $default-notification-center-notification-list--top-notification_margin-bottom;
+        &:first-child {
+          margin-top: $default-notification-center-notification-list--top-notification_margin-top;
+        }
+      }
+    }
+
+    &--bottom,
+    &--bottom-left,
+    &--bottom-center,
+    &--bottom-right {
+      .notification {
+        margin-bottom: $default-notification-center-notification-list--bottom-notification_margin-top;
+        &:last-child {
+          margin-bottom: $default-notification-center-notification-list--bottom-notification_margin-bottom;
+        }
+      }
+    }
+  }
+
+  &__button-accept {
+    // @extend .btn-sm, .btn-primary;
+  }
+
+  &__button-decline {
+    // @extend .btn-sm, .btn-outline-light;
+  }
+}
+
+.notification {
+  padding: $default-notification_padding;
+  margin: $default-notification_margin;
+  width: $default-notification_width;
+  overflow: $default-notification_overflow;
+  border-radius: $default-notification_border-radius;
+  border: $default-notification_border;
+  background-color: $default-notification_background-color;
+  box-shadow: $default-notification_box-shadow;
+  color: $default-notification_color;
+  // Default - width: 290px
+  width: 290px;
+
+  .notification-center__notification-list--top &,
+  .notification-center__notification-list--bottom & {
+    width: unset;
+  }
+
+  @media only screen and (min-device-width: 769px) {
+    .notification-center__notification-list--top-center &,
+    .notification-center__notification-list--bottom-center & {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .notification-center__notification-list--top-left &,
+    .notification-center__notification-list--bottom-left & {
+      margin-right: auto;
+    }
+    .notification-center__notification-list--top-right &,
+    .notification-center__notification-list--bottom-right & {
+      margin-left: auto;
+    }
+  }
+
+  > * {
+    &:last-child {
+      margin-bottom: unset;
+    }
+  }
+
+  &__aside {
+    display: flex;
+    flex-direction: column;
+    margin-right: 1rem;
+    border-radius: .5rem;
+    color: #ffffff;
+    width: 2.5rem;
+    height: 2.5rem;
+    justify-content: center;
+    align-items: center;
+
+    .material-icons {
+        font-size: 2rem;
+        width: 2rem;
+        margin: 0 auto;
+    }
+
+    @function set-alert-icon-color( $color ) {
+        @return adjust-color( $color, $lightness: 15% );
+    }
+
+    &--success {
+        background-color: set-alert-icon-color($default-notification-aside-icon-success-color);
+    }
+
+    &--info {
+        background-color: set-alert-icon-color($default-notification-aside-icon-info-color);
+    }
+
+    &--warning {
+        background-color: set-alert-icon-color($default-notification-aside-icon-warning-color);
+    }
+
+    &--danger {
+        background-color: set-alert-icon-color($default-notification-aside-icon-danger-color);
+    }
+
+    @media (max-width: 767.98px) {
+        padding: 0.2rem;
+        border-radius: .4rem;
+        width: 2rem;
+        height: 2rem;
+    }
+  }
+
+  &__title {
+    color: $default-notification-title_color;
+    font-size: $default-notification-title_font-size;
+    font-weight: $default-notification-title_font-weight;
+    margin-top: unset;
+    // margin-bottom: $default-notification-title_margin-bottom;
+    &::first-letter {
+      text-transform: $default-notification-title_first-letter-text-transform;
+    }
+
+    &:only-child {
+      margin-top: unset;
+      margin-bottom: unset;
+    }
+  }
+
+  &__container {
+    display: flex;
+    align-items: center
+  }
+
+  &__message-container {
+    flex: 1;
+  }
+
+  &__message {
+    flex: 1;
+    color: $default-notification-message_color;
+    font-weight: $default-notification-message_font-weight;
+    font-size: $default-notification-message_font-size;
+    white-space: pre-wrap;
+
+    &::first-letter {
+      text-transform: $default-notification-message_first-letter-text-transform;
+    }
+    &:last-child {
+      margin-top: unset;
+      margin-bottom: unset;
+    }
+    &:only-child {
+      margin-top: unset;
+      margin-bottom: unset;
+    }
+    &-spinner {
+        flex-shrink: 0;
+        margin-right: .5rem;
+    }
+  }
+  &__close-button {
+    color: $default-notification-close-button_color;
+    background-color: $default-notification-close-button_background-color;
+    border: $default-notification-close-button_border;
+    border-radius: $default-notification-close-button_border-radius;
+  }
+
+  &__redirect {
+    // @include theme-btn($default-notification-redirect-btn-variant, $default-notification-redirect-btn-style);
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.2rem;
+    margin-top: .3rem;
+    width: 100%;
+
+    > a {
+        color: black;
+        text-decoration: none;
+        font-size: .875rem;
+        line-height: 1.5;
+    }
+  }
+
+  &__slim {
+      padding: $default-notification-slim-padding;
+
+      .notification__aside {
+        margin-right: $default-notification-slim-aside-margin-right;
+
+        .spinner {
+            height: $default-notification-slim-aside-size !important;
+            width: $default-notification-slim-aside-size !important;
+        }
+
+        .material-icons {
+            font-size: $default-notification-slim-aside-size;
+            margin: 0 auto;
+        }
+      }
+
+      .notification__title {
+        font-size: $default-notification-slim-title-font-size;
+      }
+
+      .notification__message {
+        font-size: $default-notification-slim-message-font-size;
+      }
+
+      .notification__close-button {
+        padding: $default-notification-slim-close-button-padding;
+        height: $default-notification-slim-close-button-height;
+        display: flex;
+      }
+
+      .notification__redirect {
+        padding: 0.2rem 0.4rem;
+        max-width: max-content;
+        float: right;
+
+        > a {
+            font-size: .75rem;
+            line-height: unset;
+        }
+      }
+  }
+}
+
+// Add notification--modifiers here
+.notification {
+  &--notice {
+    width: 320px;
+
+    .notification__redirect {
+        max-width: max-content;
+        float: right;
+    }
+  }
+  &--default {
+    background-color: $default-notification--default-background-color;
+    &__aside {
+      i {
+        // color: $gray-500;
+      }
+      .sk-fading-circle.spinner {
+        //   --background-color: #2d2d2d !important;
+      }
+    }
+  }
+  &--info {
+    // background-color: lighten(blue, 20%);
+  }
+  &--success {
+    // background-color: lighten(green, 20%);
+  }
+  &--warning {
+    // background-color: lighten(orange, 20%);
+  }
+  &--danger {
+    // background-color: lighten(red, 20%);
+  }
+  &--error {
+    // background-color: lighten(grey, 20%);
+  }
+  &--dark {
+    .notification {
+      &__close-button {
+        color: $default-notification_dark-close-button_color;
+        background-color: $default-notification_dark-close-button_background-color;
+      }
+      &__message {
+        color: $default-notification_dark-message_color;
+      }
+      &__title {
+        color: $default-notification_dark-title_color;
+      }
+    }
+    &.notification {
+      background-color: $default-notification_dark_background-color;
+      color: $default-notification_dark_color;
+    }
+  }
+}

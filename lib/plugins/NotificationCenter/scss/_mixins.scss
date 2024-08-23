@@ -1,0 +1,178 @@
+
+// =============================================================================
+// Font Face
+// =============================================================================
+
+@mixin font-face($name, $path, $weight: null, $style: null, $exts: eot woff2 woff ttf svg) {
+    $src: null;
+
+    $extmods: (
+        eot: "?",
+        svg: "#" + str-replace($name, " ", "_")
+    );
+
+    $formats: (
+        otf: "opentype",
+        ttf: "truetype"
+    );
+
+    @each $ext in $exts {
+        $extmod: if(map-has-key($extmods, $ext), $ext + map-get($extmods, $ext), $ext);
+        $format: if(map-has-key($formats, $ext), map-get($formats, $ext), $ext);
+        $src: append($src, url(quote($path + "." + $extmod)) format(quote($format)), comma);
+    }
+
+    @font-face {
+        font-family: quote($name);
+        font-style: $style;
+        font-weight: $weight;
+        src: $src;
+    }
+}
+
+// =============================================================================
+// Buttons
+// =============================================================================
+
+// You can also use it like:
+//
+// @include theme-btn($modal-btn-name);
+// - This will have default style
+//
+// You may also include a second argument to specify the style. Valid styles are: 'default', 'outline', 'link'
+//
+// @include theme-btn($modal-btn-name, 'outline');
+// @include theme-btn($modal-btn-name, 'link');
+//
+
+@mixin theme-btn( $variant: null, $style: default ) {
+    @if $variant == null {
+        @warn "Argument $variant cannot be null.";
+    }
+    @else {
+        $theme-color-keys: map-keys($theme-colors);
+
+        @if not index($theme-color-keys, $variant) {
+            @warn "Unknown variant value '#{$variant}'. Valid values are: #{$theme-color-keys}";
+        }
+
+        $bg-color: if(map-has-key( $theme-colors, $variant ), map-get( $theme-colors, $variant ), transparent);
+
+        @include theme-button-base();
+        @include theme-button-color( $bg-color, $style );
+    }
+}
+
+@mixin theme-button-base {
+    display: inline-block;
+    font-family: $btn-font-family;
+    font-weight: $btn-font-weight;
+    color: $body-color;
+    text-align: center;
+    text-decoration: if($link-decoration == none, null, none);
+    white-space: $btn-white-space;
+    vertical-align: middle;
+    user-select: none;
+    background-color: transparent;
+    border: $btn-border-width solid transparent;
+    @include button-size($btn-padding-y, $btn-padding-x, $btn-font-size, $btn-line-height, $btn-border-radius);
+    @include transition($btn-transition);
+
+    @include hover() {
+      color: $body-color;
+      text-decoration: none;
+    }
+
+    &:focus,
+    &.focus {
+      outline: 0;
+      box-shadow: $btn-focus-box-shadow;
+    }
+
+    // Disabled comes first so active can properly restyle
+    &.disabled,
+    &:disabled {
+      opacity: $btn-disabled-opacity;
+      @include box-shadow(none);
+    }
+
+    &:not(:disabled):not(.disabled) {
+      cursor: if($enable-pointer-cursor-for-buttons, pointer, null);
+
+      &:active,
+      &.active {
+        @include box-shadow($btn-active-box-shadow);
+
+        &:focus {
+          @include box-shadow($btn-focus-box-shadow, $btn-active-box-shadow);
+        }
+      }
+    }
+    &.disabled {
+      pointer-events: none;
+    }
+}
+
+@mixin theme-button-color($bg-color: transparent, $style: 'default') {
+    $valid-styles: 'default', 'outline', 'link';
+
+    @if not index($valid-styles, $style){
+        @warn "#{$style} is not a valid style. Available styles are: #{$valid-styles}";
+    }
+
+    @if $style == 'default' {
+        color: color-yiq($bg-color);
+        background-color: $bg-color;
+        border-color: $bg-color;
+        &:hover,
+        &:not(:disabled):not(.disabled):active {
+            color: color-yiq($bg-color);
+            background-color: darken($bg-color ,8%);
+            border-color: darken($bg-color ,8%);
+        }
+        &:focus,
+        &:not(:disabled):not(.disabled):active:focus {
+            color: color-yiq($bg-color);
+            background-color: darken($bg-color ,8%);
+            border-color: darken($bg-color ,8%);
+            box-shadow: 0 0 0 0.2rem transparentize($bg-color, 0.5);
+        }
+    }
+
+    @else if $style == 'outline' {
+        color: $bg-color;
+        background-color: transparent;
+        background-image: none;
+        border-color: $bg-color;
+        &:hover,
+        &:not(:disabled):not(.disabled):active {
+            color: color-yiq($bg-color);
+            background-color: $bg-color;
+            border-color: $bg-color;
+        }
+        &:focus,
+        &:not(:disabled):not(.disabled):active:focus {
+            box-shadow: 0 0 0 0.2rem transparentize($bg-color, 0.5);
+        }
+    }
+
+    @else if $style == 'link' {
+        font-weight: 400;
+        color: $bg-color;
+        background-color: transparent;
+        border-color: transparent;
+        &:hover,
+        &:not(:disabled):not(.disabled):active {
+            color: darken($bg-color, 8%);
+            text-decoration: underline;
+            background-color: transparent;
+            border-color: transparent;
+        }
+        &:focus,
+        &:not(:disabled):not(.disabled):active:focus {
+            text-decoration: underline;
+            border-color: transparent;
+            box-shadow: none;
+        }
+    }
+}

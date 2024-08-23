@@ -1,0 +1,23 @@
+$modal-container-z-index: 1;
+$default-header-heading-z-index: 2;
+$default-notification-redirect-btn-style: white;
+$border-radius-sm: .4em;
+$white: white;
+$black: black;
+$light: rgb(220, 220, 220);
+$dark: rgb(5, 5, 5);
+// $notification_margin: 10px;
+// Bootstrap functions, variables and mixins
+// @import "~bootstrap/scss/functions";
+// @import "~bootstrap/scss/variables";
+// @import "~bootstrap/scss/mixins";
+// @import "~bootstrap/scss/mixins/_breakpoints";
+
+// @import "mixins";
+// @import "variables.spacing";
+// @import "variables.colors";
+// @import "variables.borders";
+// @import "variables.header";
+// @import "variables.modal";
+@import "variables.notification-center";
+@import "notification-center";

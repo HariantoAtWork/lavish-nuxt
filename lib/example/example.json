@@ -1,0 +1,1177 @@
+[
+	{
+		"uuid": "0842defc-909e-4c0f-81ba-a464cc27b9b1",
+		"name": "Monthly Expenses",
+		"apps": [
+			{
+				"uuid": "a7621b53-e188-4626-b4d9-99c86cb167f1",
+				"component": "ProductOverview",
+				"app": {
+					"state": {
+						"name": "Budget Life 2024",
+						"list": [
+							{
+								"uuid": "9284ea1b-6d1f-4826-8f24-7be549dd9002",
+								"active": true,
+								"paid": "unpaid",
+								"name": "Transip BV",
+								"value": "60.5",
+								"description": null,
+								"_meta": {
+									"startDate": "2023-12-11T22:45:50.706Z",
+									"startLocation": "Europe/Amsterdam"
+								}
+							},
+							{
+								"uuid": "989648f4-bc43-4abb-9d2b-ece3225db133",
+								"active": true,
+								"paid": "unpaid",
+								"name": "Netflix International",
+								"value": "15.99",
+								"description": null,
+								"_meta": {
+									"startDate": "2023-12-11T22:46:12.090Z",
+									"startLocation": "Europe/Amsterdam"
+								}
+							},
+							{
+								"uuid": "34936835-016e-40f8-a2ae-4ef5757796cf",
+								"active": true,
+								"paid": "unpaid",
+								"name": "T-Mobile Netherlands B.V",
+								"value": null,
+								"description": null,
+								"_meta": {
+									"startDate": "2023-12-11T22:46:29.197Z",
+									"startLocation": "Europe/Amsterdam"
+								}
+							}
+						]
+					}
+				}
+			},
+			{
+				"uuid": "ed11be78-0f68-4255-a9b4-b710ca48011d",
+				"component": "ProductOverview",
+				"app": {
+					"state": {
+						"name": "Budget Life 2023",
+						"list": [
+							{
+								"uuid": "68f5a8b9-fa9a-4138-a047-83a91f1a7fa8",
+								"active": true,
+								"paid": "unpaid",
+								"name": "Ziggo Complete",
+								"value": "70.50",
+								"description": null,
+								"_meta": {
+									"startDate": "2023-12-11T22:46:56.630Z",
+									"startLocation": "Europe/Amsterdam"
+								}
+							},
+							{
+								"uuid": "a42598b2-a605-4d2f-9281-693f6829debe",
+								"active": true,
+								"paid": "unpaid",
+								"name": "ABN NR 4.001.269.2",
+								"value": "50",
+								"description": null,
+								"_meta": {
+									"startDate": "2023-12-11T22:47:10.013Z",
+									"startLocation": "Europe/Amsterdam"
+								}
+							},
+							{
+								"uuid": "93eebc4c-ad57-4cf6-b4dc-9c6f076875ae",
+								"active": true,
+								"paid": "unpaid",
+								"name": "Transip BV",
+								"value": "60.5",
+								"description": null,
+								"_meta": {
+									"startDate": "2023-12-11T22:47:41.563Z",
+									"startLocation": "Europe/Amsterdam"
+								}
+							},
+							{
+								"uuid": "3c298755-eb1c-461d-a71a-aaa82335e087",
+								"active": true,
+								"paid": "unpaid",
+								"name": "Netflix International",
+								"value": "15.99",
+								"description": null,
+								"_meta": {
+									"startDate": "2023-12-11T22:47:57.306Z",
+									"startLocation": "Europe/Amsterdam"
+								}
+							},
+							{
+								"uuid": "944aac84-d641-46b7-a298-f34e966e0e74",
+								"active": true,
+								"paid": "unpaid",
+								"name": "T-Mobile Netherlands B.V",
+								"value": "36.98",
+								"description": null,
+								"_meta": {
+									"startDate": "2023-12-11T22:48:12.480Z",
+									"startLocation": "Europe/Amsterdam"
+								}
+							},
+							{
+								"uuid": "3be70bab-dd8b-4625-a1e9-cc517381e818",
+								"active": true,
+								"paid": "unpaid",
+								"name": "Spotify Finance Limited",
+								"value": "9.99",
+								"description": null,
+								"_meta": {
+									"startDate": "2023-12-11T22:48:36.263Z",
+									"startLocation": "Europe/Amsterdam"
+								}
+							},
+							{
+								"uuid": "e7e8ca3f-c070-4d31-84a4-526025a65719",
+								"active": true,
+								"paid": "unpaid",
+								"name": "NS Flex Weekend Vrij",
+								"value": "34",
+								"description": null,
+								"_meta": {
+									"startDate": "2023-12-11T22:48:42.980Z",
+									"startLocation": "Europe/Amsterdam"
+								}
+							},
+							{
+								"uuid": "7f2a1bef-fe32-45a7-937a-2045f66d40c7",
+								"active": true,
+								"paid": "unpaid",
+								"name": "Bachata Romantica",
+								"value": "75",
+								"description": null,
+								"_meta": {
+									"startDate": "2023-12-11T22:49:46.681Z",
+									"startLocation": "Europe/Amsterdam"
+								}
+							}
+						]
+					}
+				}
+			}
+		],
+		"_meta": {
+			"created": {
+				"date": "2023-12-10T10:48:55+00:00",
+				"location": "Europe/Amsterdam"
+			},
+			"start": {
+				"date": null,
+				"location": "Europe/Amsterdam"
+			},
+			"end": {
+				"date": null,
+				"location": "Europe/Amsterdam"
+			}
+		}
+	},
+	{
+		"uuid": "09b89e04-5cb1-4d7c-a79d-32cae9c46321",
+		"name": "Engwe Engine Pro 2023",
+		"apps": [
+			{
+				"uuid": "3b38a9a5-de0e-4087-b044-ef3fd1ee51db",
+				"component": "ProductOverview",
+				"app": {
+					"state": {
+						"name": "Bike",
+						"list": [
+							{
+								"uuid": "3d70bf42-2658-4c05-bdb7-7f082debe9ea",
+								"active": true,
+								"paid": "paid",
+								"name": "Engwe Engine Pro",
+								"value": "1209",
+								"description": "Discount: chrisengwe",
+								"_meta": {
+									"startDate": "2023-11-09T13:30:36.999Z",
+									"startLocation": "Europe/Amsterdam"
+								}
+							},
+							{
+								"uuid": "7cf40403-3ba2-4d1d-b228-f4fd7924c061",
+								"active": true,
+								"paid": "unpaid",
+								"name": "Achterpedalen Amazon",
+								"value": "17.99",
+								"description": "https://www.amazon.nl/gp/product/B09D35ZVWF/ref=ppx_yo_dt_b_asin_title_o02_s00?ie=UTF8&psc=1",
+								"_meta": {
+									"startDate": "2023-11-09T13:31:40.699Z",
+									"startLocation": "Europe/Amsterdam"
+								}
+							},
+							{
+								"uuid": "95f5d2e9-03cf-4f16-b253-cc19ef8e8693",
+								"active": true,
+								"paid": "unpaid",
+								"name": "Fietzadeltas HOMPER",
+								"value": "15.99",
+								"description": "HOMPER Zadeltas Fietstas waterdichte Fietstas voor MTB Racefiets E-bike, Zadeltas Fiets met klittenbandbevestiging, zwart",
+								"_meta": {
+									"startDate": "2023-11-09T21:51:55.929Z",
+									"startLocation": "Europe/Amsterdam"
+								}
+							},
+							{
+								"uuid": "95efb14f-5f94-471c-a0f4-eb22d160d352",
+								"active": true,
+								"paid": "unpaid",
+								"name": "Fito Made in Taiwan GS Beach Cruiser fiets zadel stoel met lente vering (bruin)",
+								"value": "166.42",
+								"description": "Fito Made in Taiwan GS Beach Cruiser fiets zadel stoel met lente vering (bruin)",
+								"_meta": {
+									"startDate": "2023-11-09T21:53:11.566Z",
+									"startLocation": "Europe/Amsterdam"
+								}
+							},
+							{
+								"uuid": "d24e305a-9948-481f-af04-596781176d21",
+								"active": true,
+								"paid": "paid",
+								"name": "Mysbiker schijfslot voor motorfiets en fiets. 110 dB, luid sirene alarm",
+								"value": "27.48",
+								"description": "https://www.amazon.de/gp/product/B07JLCLVXY/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1",
+								"_meta": {
+									"startDate": "2023-11-09T21:57:19.617Z",
+									"startLocation": "Europe/Amsterdam"
+								}
+							},
+							{
+								"uuid": "15f5f572-9400-4563-99c8-c428b48139b2",
+								"active": true,
+								"paid": "unpaid",
+								"name": "auvstar Kinderzitje Fiets，Fiets Achterzitje Kinderfietsstoeltje met Rugleuning, Zachte en Comfortabele Dikke Sponsrugleuning, Veilige Fietsaccessoires Geschikt Voor Kinderen of Volwassenen",
+								"value": "23.99",
+								"description": "https://www.amazon.nl/auvstar-Kinderfietsstoeltje-Comfortabele-Sponsrugleuning-Fietsaccessoires/dp/B07TJNSY9G/ref=pd_day0fbt_sccl_1/262-1482808-0273269?pd_rd_w=bDEws&content-id=amzn1.sym.d25c3566-ce4d-4876-9a2d-13c99ad6705f&pf_rd_p=d25c3566-ce4d-4876-9a2d-13c99ad6705f&pf_rd_r=ARMFA0NAHQMMQSECTHE5&pd_rd_wg=f2vAU&pd_rd_r=60c1f0a0-6730-4cec-a00c-5d4fc97baef6&pd_rd_i=B07TJNSY9G&psc=1",
+								"_meta": {
+									"startDate": "2023-11-11T15:00:30.645Z",
+									"startLocation": "Europe/Amsterdam"
+								}
+							},
+							{
+								"uuid": "818004e7-2bec-4b56-ae4a-13945ecc67ec",
+								"active": true,
+								"paid": "unpaid",
+								"name": "Kryptonite Keeper 785-Integrated Chain Verschluss Mit Zahlenschloss, violett, One Size",
+								"value": "42.94",
+								"description": "https://www.amazon.de/-/en/001607/dp/B00LOABMKW/ref=cs_sr_dp_2?crid=289188515UTU8&keywords=bikelock%2Bchain&qid=1699567472&sprefix=bike%2Block%2Bchain%2Caps%2C67&sr=8-56&th=1",
+								"_meta": {
+									"startDate": "2023-11-09T22:08:50.725Z",
+									"startLocation": "Europe/Amsterdam"
+								}
+							}
+						]
+					}
+				}
+			}
+		],
+		"_meta": {
+			"created": {
+				"date": "2023-11-11T15:05:06+00:00",
+				"timezone": "Europe/Amsterdam"
+			},
+			"end": {
+				"date": null,
+				"timezone": "Europe/Amsterdam"
+			}
+		}
+	},
+	{
+		"uuid": "4a958982-a78c-4f92-ae3e-5fa58b7679cd",
+		"name": "Croatia - Rovinj 2024",
+		"apps": [
+			{
+				"uuid": "3f766858-0d78-4503-8b5e-860013f71f89",
+				"component": "ProductOverview",
+				"app": {
+					"state": {
+						"name": "Travel",
+						"list": [
+							{
+								"uuid": "11872d6e-0295-4208-8fb9-821a9da9fd05",
+								"active": true,
+								"paid": "split",
+								"name": "Rovinj Apartments",
+								"value": "1748 / 3",
+								"description": null,
+								"_meta": {
+									"startDate": "2023-11-11T15:24:00.918Z",
+									"startLocation": "Europe/Amsterdam"
+								}
+							},
+							{
+								"uuid": "19390af6-f29d-4db8-80b7-e58694ff3d73",
+								"active": true,
+								"paid": "paid",
+								"name": "Rovinj Full Party Ticket",
+								"value": "160",
+								"description": null,
+								"_meta": {
+									"startDate": "2023-11-09T13:30:04.188Z",
+									"startLocation": "Europe/Amsterdam"
+								}
+							},
+							{
+								"uuid": "bdc9e67f-1fd2-455a-a13c-1530cc7b1b82",
+								"active": true,
+								"paid": "paid",
+								"name": "SUNSET BACHATA CRUISE - Monday",
+								"value": "40",
+								"description": "MONDAY, 10th of June; 17:00 - 20:00 (boarding at 16:30 @ Delfin Station)\n\nURL: https://www.crosalsafestival.com/spotlights/boat_parties/sunset_bachata_cruise\n",
+								"_meta": {
+									"startDate": "2023-12-09T14:24:20.892Z",
+									"startLocation": "Europe/Amsterdam"
+								}
+							}
+						]
+					}
+				}
+			}
+		],
+		"_meta": {
+			"created": {
+				"date": "2023-11-09T13:06:32+00:00",
+				"timezone": "Europe/Amsterdam"
+			},
+			"end": {
+				"date": null,
+				"timezone": "Europe/Amsterdam"
+			}
+		}
+	},
+	{
+		"uuid": "9eac62dd-6b56-4d8e-90d2-8b4c5a3fd47f",
+		"name": "Medi - To Share or Not to Share",
+		"apps": [
+			{
+				"uuid": "d1000da9-ddde-4f8a-8b2b-fe97a2c7eb73",
+				"component": "ProductOverview",
+				"app": {
+					"state": {
+						"name": "Food Menu",
+						"list": [
+							{
+								"uuid": "00afff31-fe95-4dcb-af82-724e7e6a966f",
+								"active": true,
+								"paid": "unpaid",
+								"name": "Medi Mezze",
+								"value": "15.50",
+								"description": "Pita Bread; Avocado Pesto; Tumeric Hummus; Baba Ghanoush; Lentil dip",
+								"_meta": {
+									"startDate": "2023-12-10T10:07:28.244Z",
+									"startLocation": "Europe/Amsterdam"
+								}
+							},
+							{
+								"uuid": "fb4cfb1b-64e2-4ccc-85da-c0aeab561ddc",
+								"active": false,
+								"paid": "unpaid",
+								"name": "Medi AntiPasto",
+								"value": "20.5",
+								"description": "Baguette; Varierty of Premium Salami; Variety of Cheeses; Fire Olives; Smoked Aioli",
+								"_meta": {
+									"startDate": "2023-12-10T10:08:25.977Z",
+									"startLocation": "Europe/Amsterdam"
+								}
+							},
+							{
+								"uuid": "9ad28555-95b6-4a78-806f-2e8e87383d5f",
+								"active": true,
+								"paid": "unpaid",
+								"name": "Green Goddess Aubergine",
+								"value": "12.50",
+								"description": "Roasted Aubergine; Secret Herb Mix; Maple Syrup; Pine Nuts and Pistachio",
+								"_meta": {
+									"startDate": "2023-12-10T10:09:04.843Z",
+									"startLocation": "Europe/Amsterdam"
+								}
+							},
+							{
+								"uuid": "e215e946-1476-481b-8856-319193b06d08",
+								"active": false,
+								"paid": "unpaid",
+								"name": "Bavettte",
+								"value": "15.5",
+								"description": "Bavette Balsamic; Confit Hummus; Fried onion",
+								"_meta": {
+									"startDate": "2023-12-10T10:09:26.071Z",
+									"startLocation": "Europe/Amsterdam"
+								}
+							},
+							{
+								"uuid": "c204fac7-a86e-4f3e-90ae-3e4fcf8b5f43",
+								"active": true,
+								"paid": "unpaid",
+								"name": "Green Taco",
+								"value": "11.5",
+								"description": "Courgette Friciulin; Bib lettuce; Herb Mix; Vinaigrette",
+								"_meta": {
+									"startDate": "2023-12-10T10:09:44.227Z",
+									"startLocation": "Europe/Amsterdam"
+								}
+							},
+							{
+								"uuid": "7fc5acbe-2cfb-44ee-9be0-ca59914a60bd",
+								"active": false,
+								"paid": "unpaid",
+								"name": "Carrots au Yaourt",
+								"value": "12.5",
+								"description": "Roasted Carrots; Yoghurt Tahini; Chives",
+								"_meta": {
+									"startDate": "2023-12-10T10:09:56.460Z",
+									"startLocation": "Europe/Amsterdam"
+								}
+							},
+							{
+								"uuid": "5d26691a-79b7-4c8a-9e08-039aa8251505",
+								"active": false,
+								"paid": "unpaid",
+								"name": "Pumpkin Zucca Calabaza",
+								"value": "13.5",
+								"description": "Pumpkin; Pumpkin Foam; Pumpkin Cream; Pumkin seeds; Nori Powder",
+								"_meta": {
+									"startDate": "2023-12-10T10:10:17.471Z",
+									"startLocation": "Europe/Amsterdam"
+								}
+							},
+							{
+								"uuid": "9fd3d249-1382-4327-a788-b3d0aa374703",
+								"active": false,
+								"paid": "unpaid",
+								"name": "Hispi Cabbage",
+								"value": "12.5",
+								"description": "Hispi Cabbage; Tahini Sauce; Miso Caramelized; Green Oil",
+								"_meta": {
+									"startDate": "2023-12-10T10:11:01.560Z",
+									"startLocation": "Europe/Amsterdam"
+								}
+							},
+							{
+								"uuid": "0c39232a-a9c4-4e1b-a514-f05e588c0db2",
+								"active": true,
+								"paid": "unpaid",
+								"name": "Seabass",
+								"value": "16.5",
+								"description": "Seabass; Sweet Potato; Jalapeno foam; Meunière Sauce",
+								"_meta": {
+									"startDate": "2023-12-10T10:11:27.226Z",
+									"startLocation": "Europe/Amsterdam"
+								}
+							},
+							{
+								"uuid": "2d2d6549-3fd9-405a-af3f-0c671d49e534",
+								"active": false,
+								"paid": "unpaid",
+								"name": "Pulpo",
+								"value": "19.5",
+								"description": "Octopus; Truffle Potato Puree; Saffron Vinaigrette",
+								"_meta": {
+									"startDate": "2023-12-10T10:11:40.726Z",
+									"startLocation": "Europe/Amsterdam"
+								}
+							},
+							{
+								"uuid": "e7035be6-8b26-4426-8a93-5467b3c8aae4",
+								"active": true,
+								"paid": "unpaid",
+								"name": "Bone Marrow and Fermented Squid",
+								"value": "13.5",
+								"description": "Bone Marrow; Fermented Squid; Chives; Chili",
+								"_meta": {
+									"startDate": "2023-12-10T10:11:52.493Z",
+									"startLocation": "Europe/Amsterdam"
+								}
+							},
+							{
+								"uuid": "a52d0606-dec6-4835-b5d1-310b0f6b9acf",
+								"active": false,
+								"paid": "unpaid",
+								"name": "Beef Cheek",
+								"value": "19.5",
+								"description": "Beef Cheeks; Onion Puree; Potato Brunoise; Green oil",
+								"_meta": {
+									"startDate": "2023-12-10T10:12:09.243Z",
+									"startLocation": "Europe/Amsterdam"
+								}
+							},
+							{
+								"uuid": "24fb4840-616e-4555-9ed7-04ea2c741bc8",
+								"active": false,
+								"paid": "unpaid",
+								"name": "Pork Belly",
+								"value": "15.5",
+								"description": "Pork Belly; Celery Puree; Pineapple Chutney; Cherry Jus",
+								"_meta": {
+									"startDate": "2023-12-10T10:12:22.375Z",
+									"startLocation": "Europe/Amsterdam"
+								}
+							}
+						]
+					}
+				}
+			},
+			{
+				"uuid": "547aec9f-5f86-499b-b0ce-87acb050505a",
+				"component": "ProductOverview",
+				"app": {
+					"state": {
+						"name": "Desserts",
+						"list": [
+							{
+								"uuid": "87077c7d-ff23-4a56-bc9d-bcf430f5bdd3",
+								"active": true,
+								"paid": "unpaid",
+								"name": "Lemon Créme Brûlée",
+								"value": "8.5",
+								"description": "Créme anglaise; Vanilla; Lemon",
+								"_meta": {
+									"startDate": "2023-12-10T10:13:51.425Z",
+									"startLocation": "Europe/Amsterdam"
+								}
+							},
+							{
+								"uuid": "2a1b324d-3580-4e14-9867-caa8de7cea67",
+								"active": true,
+								"paid": "unpaid",
+								"name": "Vegan Chocolate Truffle Pie",
+								"value": "8.5",
+								"description": "Truffle chocolate; Orange zest; Vegan sand dough",
+								"_meta": {
+									"startDate": "2023-12-10T10:14:38.758Z",
+									"startLocation": "Europe/Amsterdam"
+								}
+							},
+							{
+								"uuid": "116e0302-15a5-49f9-bc5b-15b548bc192c",
+								"active": true,
+								"paid": "unpaid",
+								"name": "Affogato",
+								"value": "7.5",
+								"description": "Vanilla Ice Cream; MOTO Espresso; Dark Chocolate Flakes",
+								"_meta": {
+									"startDate": "2023-12-10T10:14:55.425Z",
+									"startLocation": "Europe/Amsterdam"
+								}
+							},
+							{
+								"uuid": "8a154e00-5fd8-41a9-8ff2-091192d22494",
+								"active": true,
+								"paid": "unpaid",
+								"name": "Brioche Torrija",
+								"value": "8.5",
+								"description": "Fried Brioche; Pistachio Crumble; Pistachio Ice Cream",
+								"_meta": {
+									"startDate": "2023-12-10T10:15:06.158Z",
+									"startLocation": "Europe/Amsterdam"
+								}
+							}
+						]
+					}
+				}
+			},
+			{
+				"uuid": "92bf69fd-7997-4d16-be0c-23ad844a167a",
+				"component": "ProductOverview",
+				"app": {
+					"state": {
+						"name": "Coffee by Moto",
+						"list": [
+							{
+								"uuid": "144ccb9d-4549-45bc-8f13-0643f8df3afc",
+								"active": false,
+								"paid": "unpaid",
+								"name": "Americano",
+								"value": "3.1",
+								"description": null,
+								"_meta": {
+									"startDate": "2023-12-10T10:16:07.576Z",
+									"startLocation": "Europe/Amsterdam"
+								}
+							},
+							{
+								"uuid": "552a9c3d-2f53-4e7c-aeb2-af0ee1a86e29",
+								"active": true,
+								"paid": "unpaid",
+								"name": "Espresso",
+								"value": "2.8",
+								"description": null,
+								"_meta": {
+									"startDate": "2023-12-10T10:16:20.870Z",
+									"startLocation": "Europe/Amsterdam"
+								}
+							},
+							{
+								"uuid": "9955178d-efcd-4db8-bdfe-117688eed285",
+								"active": false,
+								"paid": "unpaid",
+								"name": "Cappucino",
+								"value": "3.6",
+								"description": null,
+								"_meta": {
+									"startDate": "2023-12-10T10:16:31.375Z",
+									"startLocation": "Europe/Amsterdam"
+								}
+							},
+							{
+								"uuid": "635b85c6-a6a2-408d-9519-0c70a492d0a9",
+								"active": true,
+								"paid": "unpaid",
+								"name": "Flat White",
+								"value": "3.8",
+								"description": null,
+								"_meta": {
+									"startDate": "2023-12-10T10:16:43.891Z",
+									"startLocation": "Europe/Amsterdam"
+								}
+							},
+							{
+								"uuid": "5dc379f3-9ea8-4be5-b307-d80e00401da9",
+								"active": false,
+								"paid": "unpaid",
+								"name": "Latte",
+								"value": "3.8",
+								"description": null,
+								"_meta": {
+									"startDate": "2023-12-10T10:16:52.991Z",
+									"startLocation": "Europe/Amsterdam"
+								}
+							},
+							{
+								"uuid": "309f6208-6f2d-4dfe-99a1-0eb2ae70ff3a",
+								"active": false,
+								"paid": "unpaid",
+								"name": "Speciality Coffee",
+								"value": "8.5",
+								"description": "Spanish Coffee\nItalian Coffee\nFrench Coffee\nCoffee 43\nBaileys Coffee",
+								"_meta": {
+									"startDate": "2023-12-10T10:17:35.728Z",
+									"startLocation": "Europe/Amsterdam"
+								}
+							},
+							{
+								"uuid": "32233ae1-4bba-4720-8650-7a870d7062c3",
+								"active": false,
+								"paid": "unpaid",
+								"name": "Teas",
+								"value": "3.7",
+								"description": "Jarding Rouge Rooibos\nTisane de Berger\nPouchkine Black\nJasmin Green\nLemon Grass",
+								"_meta": {
+									"startDate": "2023-12-10T10:17:52.691Z",
+									"startLocation": "Europe/Amsterdam"
+								}
+							}
+						]
+					}
+				}
+			}
+		],
+		"_meta": {
+			"created": {
+				"date": "2023-12-10T10:06:38+00:00",
+				"location": "Europe/Amsterdam"
+			},
+			"start": {
+				"date": null,
+				"location": "Europe/Amsterdam"
+			},
+			"end": {
+				"date": null,
+				"location": "Europe/Amsterdam"
+			}
+		}
+	},
+	{
+		"uuid": "ba580035-342d-40fe-9d7f-57e7f19f1036",
+		"name": "Cocktails",
+		"apps": [
+			{
+				"uuid": "02a3e752-76d1-4c97-8336-ce31747bde11",
+				"component": "ProductOverview",
+				"app": {
+					"state": {
+						"name": "Bottles",
+						"list": [
+							{
+								"uuid": "32cc65d3-b633-4c9b-a6df-43a504746c45",
+								"active": true,
+								"paid": "unpaid",
+								"name": "Vodka Absolut 100cl",
+								"value": "27",
+								"description": "100cl",
+								"_meta": {
+									"startDate": "2023-12-10T10:56:42.670Z",
+									"startLocation": "Europe/Amsterdam"
+								}
+							},
+							{
+								"uuid": "ba8f891e-f15e-429f-9982-20d7efcd6649",
+								"active": true,
+								"paid": "unpaid",
+								"name": "Tequila",
+								"value": null,
+								"description": null,
+								"_meta": {
+									"startDate": "2023-12-10T10:57:12.321Z",
+									"startLocation": "Europe/Amsterdam"
+								}
+							},
+							{
+								"uuid": "41165288-17c7-4a2f-8f4b-9a21aafb643d",
+								"active": true,
+								"paid": "unpaid",
+								"name": "Contreau 70cl",
+								"value": "19.95",
+								"description": "70cl\n",
+								"_meta": {
+									"startDate": "2023-12-10T10:56:27.187Z",
+									"startLocation": "Europe/Amsterdam"
+								}
+							},
+							{
+								"uuid": "8350ee16-44d7-4959-a797-81cea145adcb",
+								"active": true,
+								"paid": "unpaid",
+								"name": "Barcardi 150cl",
+								"value": "30",
+								"description": "150cl",
+								"_meta": {
+									"startDate": "2023-12-10T10:57:38.353Z",
+									"startLocation": "Europe/Amsterdam"
+								}
+							},
+							{
+								"uuid": "ba542284-ab05-413b-8665-72f28469dd5d",
+								"active": false,
+								"paid": "unpaid",
+								"name": "Barcardi 150cl / cl",
+								"value": "30 / 150",
+								"description": "Price per cl ",
+								"_meta": {
+									"startDate": "2023-12-10T11:20:09.770Z",
+									"startLocation": "Europe/Amsterdam"
+								}
+							},
+							{
+								"uuid": "b9599867-fe83-4034-919f-8660b74a1d81",
+								"active": true,
+								"paid": "unpaid",
+								"name": "Barcrdi 100cl",
+								"value": "23.5",
+								"description": "100cl",
+								"_meta": {
+									"startDate": "2023-12-10T10:58:17.787Z",
+									"startLocation": "Europe/Amsterdam"
+								}
+							},
+							{
+								"uuid": "7162c2bd-f46f-4836-8ffb-0c32618564d1",
+								"active": false,
+								"paid": "unpaid",
+								"name": "Barcardi 100cl / cl",
+								"value": "23.5 / 100",
+								"description": "Price per cl",
+								"_meta": {
+									"startDate": "2023-12-10T11:29:28.603Z",
+									"startLocation": "Europe/Amsterdam"
+								}
+							},
+							{
+								"uuid": "4718654d-a59a-43c0-9524-40a5ec89e568",
+								"active": true,
+								"paid": "unpaid",
+								"name": "Passoa",
+								"value": null,
+								"description": null,
+								"_meta": {
+									"startDate": "2023-12-10T11:39:53.619Z",
+									"startLocation": "Europe/Amsterdam"
+								}
+							},
+							{
+								"uuid": "f197b47c-e888-4207-b69b-83f838998f4b",
+								"active": true,
+								"paid": "unpaid",
+								"name": "Vanilla Absolut 70cl (Vodka)",
+								"value": "25",
+								"description": null,
+								"_meta": {
+									"startDate": "2023-12-10T11:40:02.845Z",
+									"startLocation": "Europe/Amsterdam"
+								}
+							}
+						]
+					}
+				}
+			},
+			{
+				"uuid": "4bebfb3b-c182-4e51-a819-2a672fbed608",
+				"component": "ProductOverview",
+				"app": {
+					"state": {
+						"name": "Pornstar Martini",
+						"list": [
+							{
+								"uuid": "79dac174-42f3-4b8f-87cb-75a56cb60ded",
+								"active": true,
+								"paid": "unpaid",
+								"name": "Vanille Vodka",
+								"value": "0",
+								"description": "2 personen 60ml",
+								"_meta": {
+									"startDate": "2023-12-09T23:53:46.622Z",
+									"startLocation": "Europe/Amsterdam"
+								}
+							},
+							{
+								"uuid": "e3c23991-bcd0-47ef-94a8-c4a3be71f439",
+								"active": true,
+								"paid": "unpaid",
+								"name": "Passoa",
+								"value": "0",
+								"description": "2x Personen 50ml",
+								"_meta": {
+									"startDate": "2023-12-09T23:54:05.815Z",
+									"startLocation": "Europe/Amsterdam"
+								}
+							},
+							{
+								"uuid": "366bb7ba-fd36-4a08-a5bb-78d200aabc9a",
+								"active": true,
+								"paid": "unpaid",
+								"name": "Limoen sap",
+								"value": "0",
+								"description": "2x Personen 20ml",
+								"_meta": {
+									"startDate": "2023-12-09T23:54:12.148Z",
+									"startLocation": "Europe/Amsterdam"
+								}
+							},
+							{
+								"uuid": "6bbf3895-37be-482e-8d1b-0ecd9b497c5f",
+								"active": true,
+								"paid": "unpaid",
+								"name": "Passievruchtblokjes",
+								"value": "0",
+								"description": "12x stuks (1 doos)\n",
+								"_meta": {
+									"startDate": "2023-12-09T23:54:24.475Z",
+									"startLocation": "Europe/Amsterdam"
+								}
+							},
+							{
+								"uuid": "e246ba7b-1de4-44e0-905b-63ff6c4899a7",
+								"active": false,
+								"paid": "unpaid",
+								"name": "Passievruchtsap Maaza",
+								"value": "0",
+								"description": "2x personen: 200ml",
+								"_meta": {
+									"startDate": "2023-12-09T23:54:33.274Z",
+									"startLocation": "Europe/Amsterdam"
+								}
+							},
+							{
+								"uuid": "7e795d1f-f913-452e-9c48-b8e04490baf2",
+								"active": true,
+								"paid": "unpaid",
+								"name": "Agave Siroop",
+								"value": "0",
+								"description": "2x personen: 2 theelepel",
+								"_meta": {
+									"startDate": "2023-12-09T23:54:55.364Z",
+									"startLocation": "Europe/Amsterdam"
+								}
+							},
+							{
+								"uuid": "2ab597b2-1edc-47ee-b3f9-a0f548b8f3fa",
+								"active": true,
+								"paid": "unpaid",
+								"name": "Suiker",
+								"value": "0",
+								"description": "2x personen: 2 theelepel per persoon",
+								"_meta": {
+									"startDate": "2023-12-09T23:55:04.598Z",
+									"startLocation": "Europe/Amsterdam"
+								}
+							}
+						]
+					}
+				}
+			},
+			{
+				"uuid": "a9fbe561-6a72-452a-aa66-6b7cbb978684",
+				"component": "ProductOverview",
+				"app": {
+					"state": {
+						"name": "Piña Colada",
+						"list": [
+							{
+								"uuid": "b8478678-effd-4a54-91c8-6b870dba7009",
+								"active": true,
+								"paid": "unpaid",
+								"name": "Ananas Sap",
+								"value": null,
+								"description": "120ml\n",
+								"_meta": {
+									"startDate": "2023-12-09T23:55:39.665Z",
+									"startLocation": "Europe/Amsterdam"
+								}
+							},
+							{
+								"uuid": "a585ad74-84e0-49e2-8570-b7e568894d3f",
+								"active": true,
+								"paid": "unpaid",
+								"name": "Witte Rum",
+								"value": "23.5",
+								"description": "(100 cl) 60ml",
+								"_meta": {
+									"startDate": "2023-12-09T23:55:55.398Z",
+									"startLocation": "Europe/Amsterdam"
+								}
+							},
+							{
+								"uuid": "38454a4c-2456-48c8-b698-fc8c369d9c36",
+								"active": true,
+								"paid": "unpaid",
+								"name": "Barcardi",
+								"value": "30",
+								"description": "150cl",
+								"_meta": {
+									"startDate": "2023-12-10T10:40:46.090Z",
+									"startLocation": "Europe/Amsterdam"
+								}
+							},
+							{
+								"uuid": "7943fbcb-b431-4ee2-a26e-d59a18070866",
+								"active": true,
+								"paid": "unpaid",
+								"name": "Cocos creme",
+								"value": null,
+								"description": "30ml",
+								"_meta": {
+									"startDate": "2023-12-09T23:56:27.182Z",
+									"startLocation": "Europe/Amsterdam"
+								}
+							}
+						]
+					}
+				}
+			},
+			{
+				"uuid": "761e5912-f53a-42ec-9ee3-e56d191b5a2c",
+				"component": "ProductOverview",
+				"app": {
+					"state": {
+						"name": "Strawberry Daquiri",
+						"list": [
+							{
+								"uuid": "a90f87d1-8246-41f3-b24e-1583cfed7c52",
+								"active": true,
+								"paid": "unpaid",
+								"name": "Strawberry",
+								"value": null,
+								"description": null,
+								"_meta": {
+									"startDate": "2023-12-10T00:00:01.080Z",
+									"startLocation": "Europe/Amsterdam"
+								}
+							},
+							{
+								"uuid": "dc663724-5501-4dfc-a246-cf3408826f79",
+								"active": true,
+								"paid": "unpaid",
+								"name": "Lime juice",
+								"value": null,
+								"description": null,
+								"_meta": {
+									"startDate": "2023-12-10T00:00:06.815Z",
+									"startLocation": "Europe/Amsterdam"
+								}
+							},
+							{
+								"uuid": "44a79a8a-0b0d-449d-a8b7-851f7fd74b4f",
+								"active": true,
+								"paid": "unpaid",
+								"name": "White rum",
+								"value": null,
+								"description": null,
+								"_meta": {
+									"startDate": "2023-12-10T00:00:12.914Z",
+									"startLocation": "Europe/Amsterdam"
+								}
+							},
+							{
+								"uuid": "e7307d5a-3361-4b9a-a856-6e0b6d21f253",
+								"active": true,
+								"paid": "unpaid",
+								"name": "Sugar",
+								"value": null,
+								"description": null,
+								"_meta": {
+									"startDate": "2023-12-10T00:00:17.314Z",
+									"startLocation": "Europe/Amsterdam"
+								}
+							}
+						]
+					}
+				}
+			},
+			{
+				"uuid": "f06192b8-08f3-466c-b544-12546a190d97",
+				"component": "ProductOverview",
+				"app": {
+					"state": {
+						"name": "Magerita",
+						"list": [
+							{
+								"uuid": "ae931d5f-7a70-41b8-9e9b-a1b2643e9718",
+								"active": true,
+								"paid": "unpaid",
+								"name": "Lime Juice",
+								"value": null,
+								"description": null,
+								"_meta": {
+									"startDate": "2023-12-10T00:00:35.359Z",
+									"startLocation": "Europe/Amsterdam"
+								}
+							},
+							{
+								"uuid": "1ae89030-fe00-4490-a217-1b75b69646ee",
+								"active": false,
+								"paid": "unpaid",
+								"name": "Tequila",
+								"value": null,
+								"description": null,
+								"_meta": {
+									"startDate": "2023-12-10T00:00:44.108Z",
+									"startLocation": "Europe/Amsterdam"
+								}
+							},
+							{
+								"uuid": "dab0821b-a0a1-4b64-85fb-a54b13ad7a78",
+								"active": true,
+								"paid": "unpaid",
+								"name": "Vodka Absolut",
+								"value": "27",
+								"description": "(100cl)",
+								"_meta": {
+									"startDate": "2023-12-10T00:00:59.147Z",
+									"startLocation": "Europe/Amsterdam"
+								}
+							},
+							{
+								"uuid": "f8ecdc9b-e66b-4e51-8526-0ebf8aba0e46",
+								"active": true,
+								"paid": "unpaid",
+								"name": "Contreau",
+								"value": "19.95",
+								"description": "(70cl)",
+								"_meta": {
+									"startDate": "2023-12-10T10:44:28.304Z",
+									"startLocation": "Europe/Amsterdam"
+								}
+							}
+						]
+					}
+				}
+			}
+		],
+		"_meta": {
+			"created": {
+				"date": "2023-12-09T23:53:13+00:00",
+				"location": "Europe/Amsterdam"
+			},
+			"start": {
+				"date": null,
+				"location": "Europe/Amsterdam"
+			},
+			"end": {
+				"date": null,
+				"location": "Europe/Amsterdam"
+			}
+		}
+	},
+	{
+		"uuid": "f9d9babd-14f2-48be-bdae-3ffa4d0790ce",
+		"name": "Tasks",
+		"apps": [
+			{
+				"uuid": "2a372e37-63bf-47b9-9453-1d75b6982e97",
+				"component": "TodoOverview",
+				"app": {
+					"state": {
+						"name": "Todo",
+						"list": [
+							{
+								"uuid": "f1f817ef-76bb-48ba-836b-5e461a9c8a8b",
+								"active": "inactive",
+								"subject": "Something\n",
+								"_meta": {
+									"created": {
+										"date": "2023-12-13T14:26:25+00:00",
+										"location": "Europe/Amsterdam"
+									}
+								}
+							},
+							{
+								"uuid": "2131b181-dfe2-4c59-97ee-caab4cc33274",
+								"active": "progress",
+								"subject": "Progress",
+								"_meta": {
+									"created": {
+										"date": "2023-12-14T16:59:01+00:00",
+										"location": "Europe/Amsterdam"
+									}
+								}
+							},
+							{
+								"uuid": "5b3c6d7d-755f-4ed6-865f-47f933c42e4a",
+								"active": "onhold",
+								"subject": "On Hold",
+								"_meta": {
+									"created": {
+										"date": "2023-12-14T16:59:02+00:00",
+										"location": "Europe/Amsterdam"
+									}
+								}
+							},
+							{
+								"uuid": "efcedb48-5f7a-4e1d-8c4f-fad035bf4ac5",
+								"active": "done",
+								"subject": "Finished https://sylo.space",
+								"_meta": {
+									"created": {
+										"date": "2023-12-14T16:59:03+00:00",
+										"location": "Europe/Amsterdam"
+									}
+								}
+							}
+						]
+					}
+				}
+			}
+		],
+		"_meta": {
+			"created": {
+				"date": "2023-12-12T15:07:30+00:00",
+				"location": "Europe/Amsterdam"
+			},
+			"start": {
+				"date": null,
+				"location": "Europe/Amsterdam"
+			},
+			"end": {
+				"date": null,
+				"location": "Europe/Amsterdam"
+			}
+		}
+	}
+]

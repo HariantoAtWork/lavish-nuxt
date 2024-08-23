@@ -1,0 +1,17 @@
+// Custom Squares spacing units
+
+// Spacing units
+$spacing-xs: 1rem !default;
+$spacing-sm: 2rem !default;
+$spacing-md: 3rem !default;
+$spacing-lg: 4rem !default;
+$spacing-xl: 5rem !default;
+
+// Extends the spacings map with pre-defined spacings
+$spacers: map-merge((
+  xs: $spacing-xs,
+  sm: $spacing-sm,
+  md: $spacing-md,
+  lg: $spacing-lg,
+  xl: $spacing-xl
+), $spacers);

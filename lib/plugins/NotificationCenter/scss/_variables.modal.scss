@@ -1,0 +1,115 @@
+/*------------------------------------*\
+  #BOOTSTRAP OVERRIDE VARS (BS)
+\*------------------------------------*/
+$spacing-xs: 4px;
+$modal-header-padding-x: 4px;
+$modal-header-padding-y: 4px;
+/**
+ * These variables are needed for overriding default Bootstrap vars
+ */
+
+// Bootstrap default variables
+$bs-modal-backdrop-bg:                 $black !default;
+$bs-modal-backdrop-opacity:            .55 !default;
+
+$bs-modal-header-border-width:         0 !default;
+$bs-modal-header-padding-y:            $spacing-xs !default;
+$bs-modal-header-padding-x:            $spacing-xs !default;
+$bs-modal-header-padding:              $modal-header-padding-y $modal-header-padding-x !default;
+
+$bs-modal-content-bg-color:            $white !default;
+$bs-modal-content-border-radius:       $border-radius !default;
+$bs-modal-content-inner-border-radius: $border-radius !default;
+
+// new modal variables :: above ^ can be removed if old modal is not used
+
+$bs-modal-container-bg:                rgba(0,0,0,.55) !default;
+$bs-modal-container-z-index:           $default-header-heading-z-index + 1 !default;
+
+$bs-modal-header-title-color:          $white !default;
+$bs-modal-header-title-font-size:      2.4rem !default;
+$bs-modal-header-title-font-weight:    $font-weight-bold !default;
+$bs-modal-header-title-font-family:    $headings-font-family !default;
+
+$bs-modal-header-close-icon-wrapper-width: 50px !default;
+$bs-modal-header-close-icon-color:         $white !default;
+$bs-modal-header-close-icon-font-size:     2.4rem !default;
+
+$bs-modal-header-margin-bottom:        5px !default;
+
+$bs-modal-wrapper-border-radius:       $border-radius-sm !default;
+$bs-modal-wrapper-padding-x:           15px !default;
+$bs-modal-wrapper-padding-y:           0px !default;
+$bs-modal-max-width:                   1140px !default;
+$bs-modal-width:                       100% !default;
+
+$bs-modal-small-max-width:              500px !default;
+$bs-modal-small-width:                  100% !default;
+
+$bs-modal-medium-max-width:              730px !default;
+$bs-modal-medium-width:                  100% !default;
+
+$bs-modal-extra-large-max-width:        1400px !default;
+$bs-modal-extra-large-width:            100% !default;
+
+$modal-submit-btn-variant: 'primary' !default;
+$modal-submit-btn-style: 'default' !default;
+
+$modal-close-btn-variant: 'secondary' !default;
+$modal-close-btn-style: 'default' !default;
+
+$modal-box-title-container-bg-color: $white !default;
+
+$modal-footer-bg-color: $gray-800 !default;
+$modal-footer-color: $white !default;
+
+
+/*------------------------------------*\
+  #BOOTSTRAP DEFAULT VARS
+\*------------------------------------*/
+
+// Bootstrap default variables
+$modal-backdrop-bg:                 $bs-modal-backdrop-bg;
+$modal-backdrop-opacity:            $bs-modal-backdrop-opacity;
+
+$modal-header-border-width:         $bs-modal-header-border-width;
+$modal-header-padding-y:            $bs-modal-header-padding-y;
+$modal-header-padding-x:            $bs-modal-header-padding-x;
+$modal-header-padding:              $bs-modal-header-padding;
+
+$modal-content-bg-color:            $bs-modal-content-bg-color;
+$modal-content-border-radius:       $bs-modal-content-border-radius;
+$modal-content-inner-border-radius: $bs-modal-content-inner-border-radius;
+
+// new modal variables :: above ^ can be removed if old modal is not used
+
+$modal-container-bg:                $bs-modal-container-bg;
+$modal-container-z-index:           $bs-modal-container-z-index;
+
+$modal-header-title-color:          $bs-modal-header-title-color;
+$modal-header-title-font-size:      $bs-modal-header-title-font-size;
+$modal-header-title-font-weight:    $bs-modal-header-title-font-weight;
+$modal-header-title-font-family:    $bs-modal-header-title-font-family;
+
+$modal-header-close-icon-wrapper-width: $bs-modal-header-close-icon-wrapper-width;
+$modal-header-close-icon-color:         $bs-modal-header-close-icon-color;
+$modal-header-close-icon-font-size:     $bs-modal-header-close-icon-font-size;
+
+$modal-header-margin-bottom:        $bs-modal-header-margin-bottom;
+
+$modal-wrapper-border-radius:       $bs-modal-wrapper-border-radius;
+$modal-wrapper-padding-x:           $bs-modal-wrapper-padding-x;
+$modal-wrapper-padding-y:           $bs-modal-wrapper-padding-y;
+$modal-max-width:                   $bs-modal-max-width;
+$modal-width:                       $bs-modal-width;
+
+$modal-small-max-width:              $bs-modal-small-max-width;
+$modal-small-width:                  $bs-modal-small-width;
+
+$modal-medium-max-width:             $bs-modal-medium-max-width;
+$modal-medium-width:                 $bs-modal-medium-width;
+
+$modal-extra-large-max-width:        $bs-modal-extra-large-max-width;
+$modal-extra-large-width:            $bs-modal-extra-large-width;
+
+

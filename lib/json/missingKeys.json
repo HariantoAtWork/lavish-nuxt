@@ -1,0 +1,128 @@
+[
+  {
+    "country": "Bolivia, Plurinational State of",
+    "emoji": "🇧🇴",
+    "language": "es-BO",
+    "code": "BOB",
+    "symbol": "Bs."
+  },
+  {
+    "country": "Bouvet Island",
+    "emoji": "🇧🇻",
+    "language": "no-BV",
+    "code": null,
+    "symbol": null
+  },
+  {
+    "country": "Macau",
+    "emoji": "🇲🇴",
+    "language": "zh-MO",
+    "code": "MOP",
+    "symbol": "P"
+  },
+  {
+    "country": "Macedonia, the Former Yugoslav Republic of",
+    "emoji": "🇲🇰",
+    "language": "mk-MK",
+    "code": "MKD",
+    "symbol": "ден"
+  },
+  {
+    "country": "Mauritania",
+    "emoji": "🇲🇷",
+    "language": "ar-MR",
+    "code": null,
+    "symbol": null
+  },
+  {
+    "country": "Palestine, State of",
+    "emoji": "🇵🇸",
+    "language": "ar-PS",
+    "code": "ILS",
+    "symbol": "₪"
+  },
+  {
+    "country": "Pitcairn",
+    "emoji": "🇵🇳",
+    "language": "en-PN",
+    "code": "NZD",
+    "symbol": "$"
+  },
+  {
+    "country": "Republic of Kosovo",
+    "emoji": "🇽🇰",
+    "language": "sq-AL, sr-Latn-RS",
+    "code": "EUR",
+    "symbol": "€"
+  },
+  {
+    "country": "Saint Martin (France)",
+    "emoji": "🇲🇫",
+    "language": "fr-MF",
+    "code": "EUR",
+    "symbol": "€"
+  },
+  {
+    "country": "Svalbard and Jan Mayen",
+    "emoji": "🇸🇯",
+    "language": "no-SJ",
+    "code": "NOK",
+    "symbol": "kr"
+  },
+  {
+    "country": "Syria",
+    "emoji": "🇸🇾",
+    "language": "ar-SY",
+    "code": "SYP",
+    "symbol": "£, ل.س"
+  },
+  {
+    "country": "Taiwan",
+    "emoji": "🇹🇼",
+    "language": "zh-TW",
+    "code": "TWD",
+    "symbol": "$"
+  },
+  {
+    "country": "Timor-Leste",
+    "emoji": "🇹🇱",
+    "language": "tet",
+    "code": "IDR",
+    "symbol": "Rp"
+  },
+  {
+    "country": "Türkiye",
+    "emoji": "🇹🇷",
+    "language": "tr-TR",
+    "code": "TRY",
+    "symbol": "₺"
+  },
+  {
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "emoji": "🇬🇧",
+    "language": "en-GB, ga-IE",
+    "code": "GBP",
+    "symbol": "£"
+  },
+  {
+    "country": "United States of America",
+    "emoji": "🇺🇸",
+    "language": "en-US",
+    "code": "USD",
+    "symbol": "$"
+  },
+  {
+    "country": "Vietnam",
+    "emoji": "🇻🇳",
+    "language": "vi-VN",
+    "code": "VND",
+    "symbol": "₫"
+  },
+  {
+    "country": "Zimbabwe",
+    "emoji": "🇿🇼",
+    "language": "en-ZW",
+    "code": "ZWL",
+    "symbol": null
+  }
+]
