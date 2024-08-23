@@ -7,7 +7,11 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "docker-build": "nuxt build && docker build --platform=linux/amd64 -t harianto/lavish-nuxt .",
+    "docker-run": "docker run --rm -p 3000:3000 harianto/lavish-nuxt",
+    "docker-build-run": "npm run docker-build && npm run docker-run",
+    "docker-push": "npm run docker-build && docker push harianto/lavish-nuxt"
   },
   "dependencies": {
     "nuxt": "^3.13.0",
